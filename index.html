@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>Personaldaten</h2>
+<p>für eine Arbeitsstelle als Lieferant/ Fahrer</p>
+
+<form action="/action_page.php">
+  <label for="cars">Anrede:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Auswählen</option>
+    <option value="saab">Herr</option>
+    <option value="fiat">Frau</option>
+  </select>
+</form>
+
+<form action="/action_page.php" autocomplete="on">
+  <label for="fname">Vorname:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="email">Nachname:</label>
+  <input type="text" id="email" name="email"><br><br>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br><br>
+</form>
+
+ <form>
+          <input type="radio" id="Männlich" name="fav_language" value="Mathe">
+          <label for="html">Männlich</label><br>
+          <input type="radio" id="Weiblich" name="fav_language" value="Englisch">
+          <label for="css">Weiblich</label><br>
+        </form> 
+        
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Ich besitze ein Fahrrad</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Ich besitze ein Auto</label><br>
+ 
+  
+</form> 
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'Daten stimmen nicht überein'">Click Me!</button>
+
+
+</body>
+</html>
+
